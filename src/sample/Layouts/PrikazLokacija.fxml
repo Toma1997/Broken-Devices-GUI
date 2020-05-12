@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="694.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TableController2">
+   <children>
+      <TableView fx:id="TableView" layoutX="4.0" prefHeight="658.0" prefWidth="557.0">
+         <columns>
+            <TableColumn fx:id="col_idlokacije" prefWidth="111.0" text="ID lokacije" />
+            <TableColumn fx:id="col_grad" prefWidth="182.0" text="Grad" />
+            <TableColumn fx:id="col_adresa" prefWidth="263.0" text="Adresa" />
+         </columns>
+      </TableView>
+      <Button layoutX="467.0" layoutY="658.0" mnemonicParsing="false" onAction="#IdiNaGlavniMeni" prefHeight="27.0" prefWidth="94.0" text="Glavni meni" />
+   </children>
+</AnchorPane>

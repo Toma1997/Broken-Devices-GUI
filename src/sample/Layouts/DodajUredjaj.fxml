@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="494.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label alignment="CENTER" prefHeight="82.0" prefWidth="605.0" text="Dodaj racunar">
+         <font>
+            <Font size="56.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="89.0" text="Ime" />
+      <Label layoutX="15.0" layoutY="137.0" text="Inventarski broj" />
+      <Label layoutX="7.0" layoutY="188.0" text="Konfiguracija" />
+      <Label layoutX="33.0" layoutY="371.0" text="HDD" />
+      <Label layoutX="289.0" layoutY="137.0" text="Graficka" />
+      <Label layoutX="19.0" layoutY="239.0" text="Maticna" />
+      <Label layoutX="16.0" layoutY="283.0" text="Procesor" />
+      <Label layoutX="33.0" layoutY="330.0" text="RAM" />
+      <Label layoutX="284.0" layoutY="89.0" text="Napajanje" />
+      <TextField id="Ime" fx:id="Ime" layoutX="62.0" layoutY="84.0" prefHeight="27.0" prefWidth="181.0" />
+      <TextField id="InventarskiBroj" fx:id="InventarskiBroj" layoutX="116.0" layoutY="132.0" prefHeight="27.0" prefWidth="127.0" />
+      <TextField id="Konfiguracija" fx:id="Konfiguracija" layoutX="94.0" layoutY="183.0" prefHeight="27.0" prefWidth="149.0" />
+      <TextField id="Maticna" fx:id="Maticna" layoutX="76.0" layoutY="325.0" prefHeight="27.0" prefWidth="167.0" />
+      <TextField id="Procesor" fx:id="Procesor" layoutX="363.0" layoutY="84.0" />
+      <TextField id="Ram" fx:id="Ram" layoutX="76.0" layoutY="234.0" />
+      <TextField id="Hdd" fx:id="Hdd" layoutX="76.0" layoutY="278.0" />
+      <Button layoutX="277.0" layoutY="434.0" mnemonicParsing="false" onAction="#DodajUredjaj" prefHeight="39.0" prefWidth="127.0" text="Dodaj">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="437.0" layoutY="434.0" mnemonicParsing="false" onAction="#IdiNaGlavniMeni" prefHeight="39.0" prefWidth="127.0" text="Glavni meni" />
+      <Label id="Validacija" fx:id="Validacija" layoutX="284.0" layoutY="352.0" prefHeight="67.0" prefWidth="280.0" />
+      <TextField id="Napajanje" fx:id="Napajanje" layoutX="76.0" layoutY="366.0" />
+      <TextField id="Graficka" fx:id="Graficka" layoutX="363.0" layoutY="132.0" />
+      <Label layoutX="285.0" layoutY="188.0" text="Komentar" />
+      <TextField id="Komentar" fx:id="Komentar" layoutX="363.0" layoutY="181.0" prefHeight="117.0" prefWidth="167.0" />
+      <TextField id="IDlokacije" fx:id="IDlokacije" layoutX="404.0" layoutY="317.0" prefHeight="27.0" prefWidth="127.0" />
+      <Label layoutX="314.0" layoutY="322.0" text="ID lokacije" />
+   </children>
+</AnchorPane>
